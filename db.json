@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "myra"
+    },
+    {
+      "id": 2,
+      "name": "jira"
+    },
+    {
+      "name": "Edith Bayer",
+      "id": 3
+    },
+    {
+      "name": "Hattie Medhurst",
+      "id": 4
+    }
+  ],
+  "albums": [],
+  "photos": []
+}
