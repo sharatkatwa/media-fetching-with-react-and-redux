@@ -1,22 +1,33 @@
 {
   "users": [
     {
-      "id": 1,
-      "name": "myra"
+      "name": "Della Kling",
+      "id": 1
     },
     {
-      "id": 2,
-      "name": "jira"
+      "name": "Irvin Wunsch",
+      "id": 2
     },
     {
-      "name": "Edith Bayer",
+      "name": "Gerald Harvey",
       "id": 3
     },
     {
-      "name": "Hattie Medhurst",
+      "name": "Lawrence Gerhold",
       "id": 4
     }
   ],
-  "albums": [],
+  "albums": [
+    {
+      "userId": 1,
+      "title": "Fantastic Fresh Computer",
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "title": "Rustic Rubber Soap",
+      "id": 2
+    }
+  ],
   "photos": []
 }

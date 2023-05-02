@@ -24,11 +24,13 @@ function Button({
       'border-yellow-400 bg-yellow-400 text-white': warning,
       'border-red-500 bg-red-500 text-white': danger,
       'rounded-full': rounded,
+      'text-white':
+        !outline && (primary || secondary || success || warning || danger),
       'bg-white': outline,
       'text-blue-500': outline && primary,
-      'text-gray-900': outline && secondary,
+      'text-gray-500': outline && secondary,
       'text-green-500': outline && success,
-      'text-yellow-400': outline && warning,
+      'text-yellow-500': outline && warning,
       'text-red-500': outline && danger,
     }
   )
